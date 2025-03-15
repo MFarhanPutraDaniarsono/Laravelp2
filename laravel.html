@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+div {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+pre {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+strong {
+    color: #e74c3c;
+}
+
+</style>
+<body>
+    <h1>Pengenalan dan Instalasi Laravel</h1>
+    <div>
+        <h2>Apa itu Laravel?</h2>
+        <p>Laravel adalah framework aplikasi web PHP yang open-source.
+            Mengikuti pola desain Model-View-Controller (MVC).
+            Bertujuan untuk membuat pengembangan web lebih mudah, cepat, dan menyenangkan.
+            Menyediakan berbagai fitur siap pakai untuk pengembangan aplikasi web modern.
+        </p>
+    </div>
+
+    <div>
+        <h3>Kebutuhan Instalasi</h3>
+        <ul>
+            <li>Siapkan Composer</li>
+            <li>Node.js</li>
+            <li>VSCode/Visual Studio Code</li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Struktur Direktori</h4>
+        <ul>
+            <li><strong>app/</strong>: Berisi kode aplikasi (model, controller, middleware).</li>
+            <li><strong>routes/</strong>: Mendefinisikan rute aplikasi.</li>
+            <li><strong>resources/views/</strong>: Berisi file tampilan (Blade templates).</li>
+            <li><strong>database/</strong>: Berisi migration dan seeder database.</li>
+            <li><strong>public/</strong>: Direktori publik untuk aset (CSS, JavaScript, gambar).</li>
+            <li><strong>config/</strong>: Berisi file konfigurasi aplikasi.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h5>Cara Instal</h5>
+        <ol>
+            <li>Install Laravel menggunakan Composer:
+                <pre>composer create-project laravel/laravel nama_proyek</pre>
+            </li>
+            <li>Masuk ke direktori proyek:
+                <pre>cd nama_proyek</pre>
+            </li>
+            <li>Jalankan server pengembangan Laravel:
+                <pre>php artisan serve</pre>
+            </li>
+            <li>Buka browser dan akses:
+                <pre>http://127.0.0.1:8000</pre>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
